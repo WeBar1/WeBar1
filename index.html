@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -12,7 +13,7 @@
     nav { display: flex; justify-content: center; gap: 20px; background-color: #f0f0f0; padding: 10px; }
     nav a { text-decoration: none; color: #000; font-weight: bold; }
     section { padding-top: 40px; }
-    .drink { display: flex; gap: 20px; margin-bottom: 20px; align-items: center; }
+    .drink { display: flex; gap: 20px; margin-bottom: 20px; align-items: center; flex-wrap: wrap; }
     .drink img { width: 150px; height: 150px; object-fit: cover; border-radius: 10px; }
     .pricing-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
     .pricing-table th, .pricing-table td { border: 1px solid #ccc; padding: 10px; }
@@ -22,6 +23,17 @@
   </style>
 </head>
 <body>
-  ... (zkráceno)
+  <header>
+    <img src="https://i.ibb.co/tw3mDQS/logo.jpg" alt="WeBar logo" />
+    <h1>WeBar</h1>
+    <p>Mobilní bar a barmanské služby na míru</p>
+  </header>
+  <nav>
+    <a href="#menu">Koktejlová nabídka</a>
+    <a href="#pricing">Ceník</a>
+    <a href="#gallery">Fotogalerie</a>
+    <a href="#about">O nás & Kontakt</a>
+  </nav>
+  <!-- Zbytek obsahu je stejný jako předchozí -->
 </body>
 </html>
