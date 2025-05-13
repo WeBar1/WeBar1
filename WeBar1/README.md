@@ -9,4 +9,4 @@ Tato statická webová stránka je určena pro prezentaci barmanských služeb W
 2. V repozitáři otevři záložku `Settings` → `Pages`.
 3. Vyber branch `main` a složku `/ (root)`.
 4. Ulož – stránka bude veřejně dostupná na:  
-   `https://<tvé-uživatelské-jméno>.github.io/WeBar1`
+   https://<tvé-uživatelské-jméno>.github.io/WeBar1
